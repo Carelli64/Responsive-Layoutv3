@@ -22,14 +22,18 @@ body {
     line-height: 1.6;
     margin: 0;
 }
-.main-header {
+.top-background {
+    background-color: azure;
+    margin: 0;
+}
+/* .main-header {
     border: 1;
     background-color: azure;
     padding: 1em 0;
     margin: 0;
     flex-direction: column;
     align-items: center;
-}
+} */
 .main-nav {
     text-align: center;
 }
@@ -68,7 +72,7 @@ ul {
     color: black;
 }
 .container {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -125,9 +129,60 @@ footer {
 .contact-footer {
     background-color: azure;
 }
-/* hr {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: azure;
-} */
+
+@media (min-width: 768px) {
+    .main-header, .main-nav {
+        display: flex;
+    }
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .button {
+        background-color: azure;
+        border-style: none;
+        padding: 1%;
+        margin: 5px;
+    }
+    .logo {
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: flex-start;
+        padding: 4%;
+        justify-content: center;
+    }
+    .logoimg {
+        padding: 0;
+        width: 40%;
+    }
+    .hello {
+        font-size: 1.25rem;
+        text-align: left;
+        margin: auto;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    img {
+        max-width: 340px;
+        padding: 1%;
+        margin: 5px;
+    }
+    .stuff {
+        max-width: 350px;
+    }
+    #portfolio {
+        padding: 5%;
+    }
+    h2 {
+        margin: 15px;
+    }
+    .para {
+        margin: 10px;
+    }
+    .back-to-top {
+        display:none;
+    }
+}
