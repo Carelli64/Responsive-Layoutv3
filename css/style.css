@@ -170,6 +170,9 @@ footer {
         padding: 1%;
         margin: 5px;
     }
+    .pic {
+        max-width: 350px;
+    }
     .stuff {
         max-width: 350px;
     }
@@ -181,8 +184,108 @@ footer {
     }
     .para {
         margin: 10px;
+        text-align: center;
+        align-items: center;
     }
     .back-to-top {
         display:none;
+    }
+    .contact {
+        padding: 0;
+    }
+    .contactp {
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        max-width: 75%;
+    }
+    p {
+        font-size: 15px;
+    }
+    .foot {
+        display: inline-block;
+        text-decoration: none;
+        margin: 5px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .top-background {
+        background-color: azure;
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    .main-header {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        max-width: 1100px;
+        height: 120px
+        
+    }
+    .main-nav {
+        padding-right: 2.5rem;
+    }
+    .name {
+        padding-left: 2rem;
+    }
+    .hello {
+        padding-left: 2rem;
+    }
+    .logo {
+        display: flex;
+        width: 90vw;
+        margin: auto;
+        padding: 0 0 1rem 0;
+        max-width: 1100px;
+    }
+    .logoimg {
+        padding-right: 2rem;
+    }
+    .button {
+        margin-left: 3px;
+        padding: 1%;
+    }
+    .container {
+        max-width: 90vw;
+        margin: auto;
+    }
+    img {
+        max-width: 280px;
+        margin: 5px;
+        padding: 1%;
+    }
+    .stuff {
+        max-width: 290px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    main {
+        max-width: 1100px;
+        width: 90vw;
+        margin: auto;
+    }
+    footer {
+        max-width: 1100px;
+        width: 90vw;
+        margin: auto;
+    }
+    .contact-footer {
+        max-width: 1100px;
+        width: 90vw;
+        margin: auto;
+    }
+    footer h2 {
+        padding-left: 40px;
+    }
+    .foot {
+        padding-right: 40px;
     }
 }
