@@ -44,7 +44,7 @@ body {
 .contact, .main-footer {
     text-align: center;
     padding: 2em 0;
-    background-color: azure;
+    background-color: blanchedalmond;
     width: 100%;
 }
 a {
@@ -127,10 +127,13 @@ footer {
     font-weight: 400;
 }
 .contact-footer {
-    background-color: azure;
+    background-color: blanchedalmond;
 }
 .foot {
     display: none;
+}
+.skill p {
+    color: brown;
 }
 @media (min-width: 768px) {
     .main-header, .main-nav {
@@ -176,7 +179,7 @@ footer {
         max-width: 350px;
     }
     .stuff {
-        max-width: 350px;
+        max-width: 360px;
     }
     #portfolio {
         padding: 5%;
@@ -263,7 +266,7 @@ footer {
         padding: 1%;
     }
     .stuff {
-        max-width: 290px;
+        max-width: 280px;
     }
     .container {
         display: flex;
